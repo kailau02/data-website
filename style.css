@@ -33,13 +33,26 @@ h1{
 
 .search-area{
     display: grid;
-    grid-template-columns: 5fr 1fr 1fr;
-    gap: 20px;
-    height: 50px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px 50px;
 }
 
 .search-area > * {
     font-size: 25px;
+}
+
+#item-txt-field{
+    grid-column: 1/6;
+}
+
+#done-btn{
+    grid-row: 2/3;
+    grid-column: 1/4;
+}
+
+#clear-btn{
+    grid-row: 2/3;
+    grid-column: 4/6;
 }
 
 /* Styling */
@@ -48,6 +61,7 @@ h1{
     border: 3px solid palevioletred;
     border-radius: 5px;
     min-width: 20px;
+    height: 35px;
 }
 .field:focus{
     outline: none;
@@ -59,6 +73,7 @@ h1{
     border-top-color: rgb(235, 177, 196);
     background-color: rgb(255, 226, 231);
     border-radius: 100px;
+    height: 50px;
 }
 
 .button:hover{
