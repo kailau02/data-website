@@ -26,5 +26,6 @@ doneBtn.addEventListener("click", () => {
 });
 
 clearBtn.addEventListener("click", () => {
+    inputField.value = "";
     setPreview();
 })
