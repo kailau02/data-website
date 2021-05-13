@@ -47,6 +47,7 @@ h1{
 .field{
     border: 3px solid palevioletred;
     border-radius: 5px;
+    min-width: 20px;
 }
 .field:focus{
     outline: none;
