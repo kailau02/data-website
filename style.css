@@ -55,6 +55,15 @@ h1{
     grid-column: 4/6;
 }
 
+/* Data */
+
+#data-table{
+    border: 3px solid rgb(119, 89, 252);
+    padding: 10px;
+    background-color: rgb(205, 194, 255);
+    border-radius: 4px;
+}
+
 /* Styling */
 
 .field{
@@ -91,4 +100,8 @@ h1{
 
 .gray {
     color:gray;
+}
+
+li{
+    list-style: none;
 }
